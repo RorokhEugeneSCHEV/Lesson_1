@@ -1,3 +1,6 @@
+package Lesson_1;
+
+package Lesson_1;
 import java.util.Scanner;
 /*
 1. Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple
