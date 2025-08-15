@@ -283,3 +283,10 @@ public class ArrayExample {
 14. Написать метод, принимающий на вход два аргумента: len и initialValue, и возвращающий одномерный массив типа int длиной len, 
 каждая ячейка которого равна initialValue.
          */                             
+public static String[] createArray(String len, String initialValue) {
+    String[] array = new String[len.length()]; // Длина массива = длине строки len
+    for (int i = 0; i < array.length; i++) {
+        array[i] = initialValue; // Заполняем массив строкой initialValue
+    }
+    return array;
+}        
