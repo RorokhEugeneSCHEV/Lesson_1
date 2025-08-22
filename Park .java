@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// ЗАДАНИЕ 3
+
 public class Park {
     private String parkName;
     private List<Attraction> attractions;

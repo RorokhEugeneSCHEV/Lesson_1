@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// ЗАДАНИЕ 2
+
+
 public class Product {
     private String name;
     private String dateProduction;
